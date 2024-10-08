@@ -1,0 +1,92 @@
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+    }
+@model IEnumerable<QLcaulacbosinhvien.Models.Account>
+<div class="card">
+                <h2 class="card-header" 
+                style=" display: flex;
+                  justify-content: center;
+                align-items: center;
+                color:blue">Quản lí tài khoản</h2>
+                <div class="card-body">
+                <a  href="/Admin/Account/Create" class="btn btn-primary">Thêm mới</a>
+                  <div class="table-responsive text-nowrap">
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>STT</th>
+                          <th>Tên </th>
+                          <th>Email</th>
+                          <th>Mật khẩu</th>
+                          <th>Quyền</th>
+                          <th>chức năng</th>
+                        </tr>
+                      </thead>
+                           <tbody>
+                        @if(Model !=null && Model.Any())
+                        {
+                            var i = 1;
+                        @foreach(var item in Model)
+                        {
+                            <tr id="trow_@i">
+                                    <th>@item.AccountID</th>
+                                <td>@item.UserName</td>
+                                <td>@item.Email</td>
+                                <td>@item.Password</td>
+                                @if(item.RoleID == 1)
+                                {
+                                    <td>Admin</td>
+                                }
+                                else if(item.RoleID == 2)
+                                {
+                                    <td>Trưởng CLB</td>
+                                }
+                                else{
+                                    <td>Thành viên</td>
+                                }
+                                <td>
+                                    <a  href="/Admin/Account/Edit/@item.AccountID" class="btn btn-primary">Sửa</a>
+                                    <a href="" data-id="@item.AccountID" class="btn btn-danger btnDelete">Xóa</a>
+                                </td>
+                                </tr>
+                                i++;
+                            }
+                        }
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+    @section scripts2{
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+    $(document).ready(function () {
+        // Attach a click event to elements with the class "btnDelete"
+        $('body').on('click', '.btnDelete', function () {
+            // Prevent the default behavior of the anchor
+            var id = $(this).data("id");
+        var conf = confirm( "Bạn có muốn xóa bản ghi này ?");
+            if (conf === true) {
+
+                // Make an AJAX request to your server to delete the record
+                $.ajax({
+                 
+                    url: '/admin/Account/delete', // Replace with your actual URL
+                    type: 'POST', // Use POST or DELETE based on your server-side implementation
+                    data: { id: id },
+                    success: function (rs) {
+                        if (rs.success) {
+                            $('#trow_' + id).remove();  
+                        }
+                    }
+
+                });
+            }
+        });
+    });
+
+    </script>
+
+    }
+
+          

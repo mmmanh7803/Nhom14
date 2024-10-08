@@ -1,0 +1,110 @@
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+    }
+@model IEnumerable<QLcaulacbosinhvien.Models.Menu>
+<div class="card">
+                <h2 class="card-header" 
+                style=" display: flex;
+                  justify-content: center;
+                align-items: center;
+                color:blue">Quản lí danh mục</h2>
+                <div class="card-body">
+                <a  href="/Admin/AdminMenu/Create" class="btn btn-primary">Thêm mới</a>
+                  <div class="table-responsive text-nowrap">
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>STT</th>
+                          <th>Tên danh mục</th>
+                          <th>Cấp</th>
+                          <th>Thứ tự</th>
+                          <th>hiển thị</th>
+                          <th>chức năng</th>
+                        </tr>
+                      </thead>
+                           <tbody>
+                        @if(Model !=null && Model.Any())
+                        {
+                            var i = 1;
+                        @foreach(var item in Model)
+                        {
+                            <tr id="trow_@i">
+                                    <th>@item.MenuID</th>
+                                <td>@item.MenuName</td>
+                                <td>@item.Levels</td>
+                                <td>@item.MenuOrder</td>
+                                <td>
+                                        <div class="form-check form-switch">
+                                            <input data-id="@item.MenuID" class="form-check-input toggle-switch" type="checkbox" id="flexSwitchCheckChecked_@item.MenuID" @(item.IsActive.HasValue && item.IsActive.Value ? "checked" : "")>
+                                            <label class="form-check-label" for="flexSwitchCheckChecked_@item.MenuID">
+                                                <!-- Label content goes here if needed -->
+                                            </label>
+                                        </div>
+                                </td>
+                                <td>
+                                    <a  href="/Admin/AdminMenu/Edit/@item.MenuID" class="btn btn-primary">Sửa</a>
+                                    <a href="" data-id="@item.MenuID" class="btn btn-danger btnDelete">Xóa</a>
+                                </td>
+                                </tr>
+                                i++;
+                            }
+                        }
+                    </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+    @section scripts2{
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+    $(document).ready(function () {
+        // Attach a click event to elements with the class "btnDelete"
+        $('body').on('click', '.btnDelete', function () {
+            // Prevent the default behavior of the anchor
+            var id = $(this).data("id");
+        var conf = confirm( "Bạn có muốn xóa bản ghi này ?");
+            if (conf === true) {
+
+                // Make an AJAX request to your server to delete the record
+                $.ajax({
+                 
+                    url: '/admin/AdminMenu/delete', // Replace with your actual URL
+                    type: 'POST', // Use POST or DELETE based on your server-side implementation
+                    data: { id: id },
+                    success: function (rs) {
+                        if (rs.success) {
+                            $('#trow_' + id).remove();  
+                        }
+                    }
+
+                });
+            }
+        });
+    });
+        $(document).ready(function () {
+            $('.toggle-switch').on('change', function () {
+                var id = $(this).data('id');
+                var isActive = $(this).prop('checked');
+
+                $.ajax({
+                    url: '/Admin/Menu/UpdateIsActive', // Replace with your actual URL
+                    type: 'POST',
+                    data: { id: id, isActive: isActive },
+                    success: function (response) {
+                        if (response.success) {
+                            console.log('Update successful');
+                        } else {
+                            console.error('Update failed:', response.message);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error updating IsActive:', error);
+                    }
+                });
+            });
+        });
+    </script>
+
+    }
+
+          

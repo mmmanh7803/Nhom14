@@ -1,0 +1,37 @@
+@model IEnumerable<QLcaulacbosinhvien.ViewModels.ArticleViewModel>
+
+@using QLcaulacbosinhvien.Utilities;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id="blog" class="blog">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Bài Viết</h2>
+                     <span>Đọc các bài viết hữu ích tại đây.</span> 
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+                @foreach(var post in Model){                
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="blog-box">
+                     <figure><img src="~/images/@post.Image" alt="#">
+                        <span>@post.Date</span>
+                     </figure>
+                     <div class="travel">
+                        <span>@post.AuthorName</span> 
+                        <p><strong class="Comment">@post.View</strong>  Comment</p>
+                        <p><strong class="like">@post.View</strong>Like</p>
+                     </div>
+                     <h3>@post.Title</h3>
+                     <p>@post.Content</p>
+                  </div>
+               </div>
+               }
+              
+            </div>
+         </div>
+      </div>

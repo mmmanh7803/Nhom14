@@ -1,0 +1,1093 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\admin\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\animate.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\default-skin.css",
+      "PackagePath": "staticwebassets\\css\\default-skin.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\css\\icomoon.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\css\\meanmenu.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\IcoMoon-Free.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IcoMoon-Free.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\icon\\1.png",
+      "PackagePath": "staticwebassets\\icon\\1.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\icon\\2.png",
+      "PackagePath": "staticwebassets\\icon\\2.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\icon\\3.png",
+      "PackagePath": "staticwebassets\\icon\\3.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\icon\\errow.png",
+      "PackagePath": "staticwebassets\\icon\\errow.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\icon\\fb.png",
+      "PackagePath": "staticwebassets\\icon\\fb.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\icon\\instagram.png",
+      "PackagePath": "staticwebassets\\icon\\instagram.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\icon\\lin(2).png",
+      "PackagePath": "staticwebassets\\icon\\lin(2).png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\icon\\tw.png",
+      "PackagePath": "staticwebassets\\icon\\tw.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\a1.jpg",
+      "PackagePath": "staticwebassets\\images\\a1.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\a11.jpg",
+      "PackagePath": "staticwebassets\\images\\a11.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\a2.jpg",
+      "PackagePath": "staticwebassets\\images\\a2.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\a20.jpg",
+      "PackagePath": "staticwebassets\\images\\a20.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\a3.jpg",
+      "PackagePath": "staticwebassets\\images\\a3.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\a30.jpg",
+      "PackagePath": "staticwebassets\\images\\a30.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\a4.png",
+      "PackagePath": "staticwebassets\\images\\a4.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\a5.jpg",
+      "PackagePath": "staticwebassets\\images\\a5.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\a6.jpg",
+      "PackagePath": "staticwebassets\\images\\a6.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\a8.png",
+      "PackagePath": "staticwebassets\\images\\a8.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\aboutimg.png",
+      "PackagePath": "staticwebassets\\images\\aboutimg.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\banner.png",
+      "PackagePath": "staticwebassets\\images\\banner.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner2.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\blog-image.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-image.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\blog-image0.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-image0.jpg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\images\\search_icon.png",
+      "PackagePath": "staticwebassets\\images\\search_icon.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\jquery-3.0.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.0.0.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\modernizer.js",
+      "PackagePath": "staticwebassets\\js\\modernizer.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugin.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\assets\\coloredbg.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\coloredbg.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\assets\\gridtile.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\assets\\gridtile_3x3.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile_3x3.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\assets\\gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile_3x3_white.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\assets\\gridtile_white.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile_white.png"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\assets\\loader.gif",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\loader.gif"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\css\\closedhand.html",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\closedhand.html"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\css\\layers.css",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\layers.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\css\\navigation.css",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\navigation.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\css\\openhand.html",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\openhand.html"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\css\\settings.css",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\settings.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.eot",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.eot"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.svg",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.svg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.ttf",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.woff",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.woff"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroked41d.eot",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroked41d.eot"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.eot",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.eot"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.svg",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.svg"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.ttf",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.ttf"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.woff",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.woff"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.actions.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.actions.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.carousel.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.migration.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.migration.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.navigation.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.navigation.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.parallax.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.parallax.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.video.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.video.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\js\\jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\revolution\\js\\jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\js\\slider-setting.js",
+      "PackagePath": "staticwebassets\\js\\slider-setting.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\.NET8\\QLcaulacbosinhvien\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QLcaulacbosinhvien.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.QLcaulacbosinhvien.props",
+      "PackagePath": "build\\QLcaulacbosinhvien.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.QLcaulacbosinhvien.props",
+      "PackagePath": "buildMultiTargeting\\QLcaulacbosinhvien.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.QLcaulacbosinhvien.props",
+      "PackagePath": "buildTransitive\\QLcaulacbosinhvien.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

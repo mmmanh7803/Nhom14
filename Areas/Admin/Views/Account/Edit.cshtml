@@ -1,0 +1,49 @@
+@model QLcaulacbosinhvien.Models.Account
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+    <!-- Content Header (Page header) -->
+<div class="content-wrapper">
+    <!-- Default box -->
+    <div class="card">
+        <div class="card-body">
+           <form method="post">
+            <div asp-validation-summary="All"></div>
+				<div class="form-row">
+					<input type="text" class="form-control mb-3" asp-for="AccountID" type="hidden" />
+                <div class="form-group cod-md-6">
+                    <label asp-for="UserName">Tên đăng nhập</label>
+                    <input type="text" class="form-control mb-3" asp-for="UserName" placeholder="Nhap ten đăng nhập" />
+                    <span asp-validation-for="UserName" class="alert-danger"></span>
+                </div>
+
+						<div class="form-group col md-6">
+							<label asp-for="Email">Email</label>
+							<input type="Email" class="form-control mb-3" asp-for="Email" placeholder="Nhập email" />
+							<span asp-validation-for="Email" class="alert-danger"></span>
+
+						</div>
+						<div class="form-group col md-6">
+							<label asp-for="Password">Mật khẩu</label>
+							<input type="password" class="form-control mb-3" asp-for="Password" placeholder="Nhập mật khẩu" />
+							<span asp-validation-for="Password" class="alert-danger"></span>
+						</div>
+			<div class="form-group cod-md-6">
+							<label asp-for="RoleID">Quyền</label>
+							<select asp-for="RoleID" class="form-select" id="RoleID">
+								<option value="1">Admin</option>
+								<option value="2">Trưởng CLB</option>
+                                <option value="3">Thành viên</option>
+							</select>
+						</div>
+
+                <button type="submit" class="btn btn-lg btn-primary p-2"><i class="bi bi-file-plus-fill"></i>Lưu</button>
+                <a asp-controller="Account" asp-action="Read" class="btn btn-lg btn-warning p-2">Quay Lại</a>
+            </form>
+        </div>
+    </div>
+    <!-- /.card -->
+</div>
+<!-- /.content -->
+</div>

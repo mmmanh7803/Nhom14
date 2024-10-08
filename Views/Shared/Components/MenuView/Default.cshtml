@@ -1,0 +1,62 @@
+@using System.Security.Claims;
+  @model IList<Menu>
+   @{
+         Layout = null;
+          var userClaims = User.Claims;
+   }
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                  <div class="full">
+                     <div class="center-desk">
+                        <div class="logo"> <a href="index.html">CLB-ĐHV</a> </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                  <div class="menu-area">
+                     <div class="limit-box">
+                        <nav class="main-menu">
+                           <ul class="menu-area-main">
+                              @foreach(var item in Model){
+                                <li class="@(item.IsShow ? "active" : "")">
+                                <a href="/@item.ControllerName/@item.ActionName">@item.MenuName</a>
+                            </li>
+                              }
+                  @if (User.Identity.IsAuthenticated)
+                    {
+						@if(User.FindFirst(ClaimTypes.Name) != null){
+							var name = User.FindFirst(ClaimTypes.Name)?.Value;
+                        <li class="menu-has-children">
+                            <a href="#"><i class="fa fa-user"></i> @name</a>
+                            <ul>
+                                <li>
+                                    <a href="@Url.Action("Logout", "Account")">Đăng Xuất</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Thongtin", "Account")">Tài khoản</a>
+                                </li>
+                            </ul>
+                        </li>
+						}
+                    }
+                    else
+                    {
+                        <li>
+                            <a href="@Url.Action("Login", "Account")" class="fa fa-user"> Đăng nhập</a>
+                        </li>
+                    }
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end header inner --> 
+      </header>
+      <!-- end header -->
