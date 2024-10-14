@@ -24,10 +24,10 @@ public class HomeController : Controller
 
     public IActionResult Post()
     {
-       var posts = (from Article in _context.Aricles
-                 join Member in _context.Members
-                 on Article.MemberID equals Member.MemberID
-                 where Article.Status == true
+       var posts = (from Article in _context.Articles
+                 join Account in _context.Accounts
+                 on Article.AccountID equals Account.AccountID
+                 where Article.IsShow == true
                 
                  select new ArticleViewModel{
                        ArticleID = Article.ArticleID,
@@ -36,7 +36,7 @@ public class HomeController : Controller
                      Image = Article.Image,
                      Date = Article.Date,
                      View = Article.View,
-                     AuthorName = Member.MemberName
+                     AuthorName = Account.UserName
                  }).OrderByDescending(p => p.ArticleID).Take(4).ToList();
         
         return View(posts);
@@ -48,7 +48,7 @@ public IActionResult PostDetail(long? id)
     {
         return NotFound();
     }
-    var post = _context.Aricles.FirstOrDefault(m => (m.ArticleID == id) && (m.Status == true));
+    var post = _context.Articles.FirstOrDefault(m => (m.ArticleID == id) && (m.IsShow == true));
     if (post == null)
     {
         return NotFound();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+dOYidoaPLk=",
+  "dgSpecHash": "iO1oB2vBq/U=",
   "success": true,
-  "projectFilePath": "D:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
+  "projectFilePath": "D:\\.NET8\\Qlcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoang\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -69,7 +69,7 @@
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.0\\microsoft.aspnetcore.http.2.2.0.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
-    "C:\\Users\\hoang\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\hoang\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.8\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\microsoft.aspnetcore.identity.ui.8.0.8.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
@@ -192,8 +192,8 @@
     "C:\\Users\\hoang\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
-    "C:\\Users\\hoang\\.nuget\\packages\\x.pagedlist\\10.2.1\\x.pagedlist.10.2.1.nupkg.sha512",
-    "C:\\Users\\hoang\\.nuget\\packages\\x.pagedlist.mvc.core\\10.2.1\\x.pagedlist.mvc.core.10.2.1.nupkg.sha512",
+    "C:\\Users\\hoang\\.nuget\\packages\\x.pagedlist\\10.5.0-pre\\x.pagedlist.10.5.0-pre.nupkg.sha512",
+    "C:\\Users\\hoang\\.nuget\\packages\\x.pagedlist.mvc.core\\10.5.0-pre\\x.pagedlist.mvc.core.10.5.0-pre.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\x.pagedlist.web.common\\8.0.7\\x.pagedlist.web.common.8.0.7.nupkg.sha512"
   ],
   "logs": []

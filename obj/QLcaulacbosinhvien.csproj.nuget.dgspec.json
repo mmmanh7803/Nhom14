@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj": {}
+    "D:\\.NET8\\Qlcaulacbosinhvien\\QLcaulacbosinhvien.csproj": {}
   },
   "projects": {
-    "D:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj": {
+    "D:\\.NET8\\Qlcaulacbosinhvien\\QLcaulacbosinhvien.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
+        "projectUniqueName": "D:\\.NET8\\Qlcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
         "projectName": "QLcaulacbosinhvien",
-        "projectPath": "D:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
+        "projectPath": "D:\\.NET8\\Qlcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-        "outputPath": "D:\\.NET8\\QLcaulacbosinhvien\\obj\\",
+        "outputPath": "D:\\.NET8\\Qlcaulacbosinhvien\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
             "Microsoft.AspNetCore.Authentication.Cookies": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -92,11 +96,11 @@
             },
             "X.PagedList": {
               "target": "Package",
-              "version": "[10.2.1, )"
+              "version": "[10.5.0-pre, )"
             },
             "X.PagedList.Mvc.Core": {
               "target": "Package",
-              "version": "[10.2.1, )"
+              "version": "[10.5.0-pre, )"
             },
             "X.PagedList.Web.Common": {
               "target": "Package",

@@ -20,27 +20,60 @@ namespace QLcaulacbosinhvien.Areas.Admin.Controllers
         {
             _context = context;
         }
+            public IActionResult Read(int page = 1, int pageSize = 3)
+{
+    var totalRecords = _context.Accounts.Count();
+    var account = _context.Accounts
+        .OrderBy(a => a.AccountID)
+        .Skip((page - 1) * pageSize) // Bỏ qua số bản ghi trước trang hiện tại
+        .Take(pageSize) // Lấy số bản ghi theo pageSize
+        .ToList();
 
-        public IActionResult Read()
-        {
-            var list = _context.Accounts.OrderBy(m => m.AccountID).ToList();
-            return View(list);
-        }
+    // Tính tổng số trang
+    int totalPages = (int)Math.Ceiling((double)totalRecords / pageSize);
+
+    ViewBag.CurrentPage = page;
+    ViewBag.TotalPages = totalPages;
+
+    return View(account);
+}
+ 
         public IActionResult Create(){
 
             return View();
         }
          [HttpPost]
         [ValidateAntiForgeryToken]
-       public IActionResult Create(Account mn)
+       public IActionResult Create(Account model)
         {
             if (ModelState.IsValid)
             {
-                _context.Accounts.Add(mn);
-                _context.SaveChanges();
-                return RedirectToAction("Read");
+            var existingUser = _context.Accounts.SingleOrDefault(u => u.Email == model.Email);
+            if (existingUser != null)
+            {
+                ModelState.AddModelError("Email", "Email đã được sử dụng.");
+                return View(model);
             }
-            return View(mn);
+             var member = _context.Members.SingleOrDefault(m => m.MemberEmail == model.Email);
+             if(member == null){
+                 ModelState.AddModelError("Email", "Không phải là Email thành viên trong CLB");
+                return View(model);
+             }
+            // Tạo tài khoản mới
+            var user = new Account
+            {
+                UserName = model.UserName,
+                Email = model.Email,
+                Password = model.Password, // Băm mật khẩu trong thực tế
+                MemberID = member.MemberID,
+                RoleID = model.RoleID // Role mặc định cho user mới
+            };
+
+            _context.Accounts.Add(user);
+            _context.SaveChanges();
+            return RedirectToAction("Read");
+            }
+            return View(model);
 
         }
         [HttpPost]   
@@ -69,17 +102,27 @@ public IActionResult Edit(int id)
 
     return View(account); // Trả về view với model tài khoản
 }
-		[HttpPost]
+    [HttpPost]
 		[ValidateAntiForgeryToken]
-		public IActionResult Edit(Account mn)
+		public IActionResult Edit(Account model)
 		{
 			if (ModelState.IsValid)
-			{
-				_context.Accounts.Update(mn);
-				_context.SaveChanges();
-				return RedirectToAction("Read");
+			{ 
+                var existingUser = _context.Accounts.SingleOrDefault(u => u.Email == model.Email);
+
+                if (existingUser != null)
+                {
+                    existingUser.UserName = model.UserName;
+                    existingUser.Email = model.Email;
+                    existingUser.Password = model.Password; 
+                    existingUser.RoleID = model.RoleID;
+            
+                    _context.SaveChanges();
+                }
+                 return RedirectToAction("Read");
 			}
-			return View(mn);
+			return View(model);
 		}
+
     }
 }

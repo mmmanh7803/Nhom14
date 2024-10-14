@@ -11,8 +11,6 @@ namespace QLcaulacbosinhvien.Models
 
 		public string? MenuName {  get; set; }
 
-		public bool? IsActive { get; set;}
-
 		public string? ControllerName { get; set; }
 
 		public string? ActionName { get; set;}
@@ -25,7 +23,7 @@ namespace QLcaulacbosinhvien.Models
 
 		public int MenuOrder { get; set; }
 
-		public bool IsShow { get; set; }
+		public bool? IsShow { get; set; }
 
 		public int Position { get; set; }
 

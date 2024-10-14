@@ -871,18 +871,19 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.2.0"
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.2"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
             "related": ".xml"
           }
         }
@@ -3255,7 +3256,7 @@
           }
         }
       },
-      "X.PagedList/10.2.1": {
+      "X.PagedList/10.5.0-pre": {
         "type": "package",
         "compile": {
           "lib/net8.0/X.PagedList.dll": {}
@@ -3264,10 +3265,10 @@
           "lib/net8.0/X.PagedList.dll": {}
         }
       },
-      "X.PagedList.Mvc.Core/10.2.1": {
+      "X.PagedList.Mvc.Core/10.5.0-pre": {
         "type": "package",
         "dependencies": {
-          "X.PagedList": "10.2.1"
+          "X.PagedList": "10.5.0-pre"
         },
         "compile": {
           "lib/net8.0/X.PagedList.Mvc.Core.dll": {}
@@ -4263,16 +4264,22 @@
         "microsoft.aspnetcore.http.extensions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http.Features/2.2.0": {
-      "sha512": "ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "sha512": "3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
-        "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
         "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
@@ -8841,10 +8848,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "X.PagedList/10.2.1": {
-      "sha512": "SS2rDErBq4fj6WW7sRb5QHipDjjVjDY3TZEJyx8MjXTEJZ4jrJ1Iks/QVOegkQ2f3JxeXIrkGdsOIKbVEtQnXQ==",
+    "X.PagedList/10.5.0-pre": {
+      "sha512": "dGSfaX/MSVYDBSh9NLh2Ii3aPEk5hL6ZZo3/dRU4oZQg9neL3ZrjqAa/I134LkVOrpbO3Iku671Y1zbaySEBbw==",
       "type": "package",
-      "path": "x.pagedlist/10.2.1",
+      "path": "x.pagedlist/10.5.0-pre",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8855,14 +8862,14 @@
         "lib/netstandard2.0/X.PagedList.dll",
         "lib/netstandard2.1/X.PagedList.dll",
         "x-pagedlist.png",
-        "x.pagedlist.10.2.1.nupkg.sha512",
+        "x.pagedlist.10.5.0-pre.nupkg.sha512",
         "x.pagedlist.nuspec"
       ]
     },
-    "X.PagedList.Mvc.Core/10.2.1": {
-      "sha512": "X8lUQH19qnFPEvNcrHK3GT120p3KhZfIA1y6cKWjzzMZ5/jm5KEoaf4cWDnwAw1QlTVf53JGeBn4Kgogk/zOdA==",
+    "X.PagedList.Mvc.Core/10.5.0-pre": {
+      "sha512": "5ZmUcYif0ofoa+w8lmsieD/V7XvZqnAX7jmm6J1MXV5t18kSAp71PSsygFiC8PMQN/5iEMpw5s/S6jVwsDcsSw==",
       "type": "package",
-      "path": "x.pagedlist.mvc.core/10.2.1",
+      "path": "x.pagedlist.mvc.core/10.5.0-pre",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8871,7 +8878,7 @@
         "lib/net6.0/X.PagedList.Mvc.Core.dll",
         "lib/net8.0/X.PagedList.Mvc.Core.dll",
         "x-pagedlist.png",
-        "x.pagedlist.mvc.core.10.2.1.nupkg.sha512",
+        "x.pagedlist.mvc.core.10.5.0-pre.nupkg.sha512",
         "x.pagedlist.mvc.core.nuspec"
       ]
     },
@@ -8891,6 +8898,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Authentication.Cookies >= 2.2.0",
+      "Microsoft.AspNetCore.Http.Features >= 5.0.17",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.8",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.8",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
@@ -8900,8 +8908,8 @@
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.5",
       "SlugGenerator >= 2.0.2",
-      "X.PagedList >= 10.2.1",
-      "X.PagedList.Mvc.Core >= 10.2.1",
+      "X.PagedList >= 10.5.0-pre",
+      "X.PagedList.Mvc.Core >= 10.5.0-pre",
       "X.PagedList.Web.Common >= 8.0.7"
     ]
   },
@@ -8911,11 +8919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
+      "projectUniqueName": "d:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
       "projectName": "QLcaulacbosinhvien",
-      "projectPath": "D:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
+      "projectPath": "d:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
       "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-      "outputPath": "D:\\.NET8\\QLcaulacbosinhvien\\obj\\",
+      "outputPath": "d:\\.NET8\\QLcaulacbosinhvien\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8953,6 +8961,10 @@
           "Microsoft.AspNetCore.Authentication.Cookies": {
             "target": "Package",
             "version": "[2.2.0, )"
+          },
+          "Microsoft.AspNetCore.Http.Features": {
+            "target": "Package",
+            "version": "[5.0.17, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
@@ -8996,11 +9008,11 @@
           },
           "X.PagedList": {
             "target": "Package",
-            "version": "[10.2.1, )"
+            "version": "[10.5.0-pre, )"
           },
           "X.PagedList.Mvc.Core": {
             "target": "Package",
-            "version": "[10.2.1, )"
+            "version": "[10.5.0-pre, )"
           },
           "X.PagedList.Web.Common": {
             "target": "Package",

@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using QLcaulacbosinhvien.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.Cookies; // Add this line
+using Microsoft.AspNetCore.Http.Features;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,12 +11,14 @@ builder.Services.AddControllersWithViews();
 
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
 
+
+
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(connection));
 
 builder.Services.AddSession(options =>
         {
-            options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian sống của session
+            options.IdleTimeout = TimeSpan.FromMinutes(10); // Thời gian sống của session
             options.Cookie.HttpOnly = true;
             options.Cookie.IsEssential = true;
         });
@@ -36,8 +39,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseStaticFiles();
 
-app.UseAuthorization();
+
+ app.UseAuthorization();
+
 app.MapControllerRoute(
             name : "areas",
             pattern : "{area:exists}/{controller=Home}/{action=Index}/{id?}");

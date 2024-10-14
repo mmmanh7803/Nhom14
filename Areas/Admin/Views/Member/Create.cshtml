@@ -1,0 +1,58 @@
+@model QLcaulacbosinhvien.Models.Member
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+    <!-- Content Header (Page header) -->
+<div class="content-wrapper">
+    <!-- Default box -->
+    <div class="card">
+        <div class="card-body">
+            <form method="post">
+              <div asp-validation-summary="All"></div> 
+			  
+                <div class="form-group cod-md-6">
+                    <label asp-for="MemberName">Họ Và Tên</label>
+                    <input type="text" class="form-control mb-3" asp-for="MemberName" placeholder="Nhập họ và tên" />
+                    <span asp-validation-for="MemberName" class="alert-danger"></span>
+                </div>
+
+						<div class="form-group col md-6">
+							<label asp-for="MemberEmail">Email</label>
+							<input type="Email" class="form-control mb-3" asp-for="MemberEmail" placeholder="Nhập email" />
+							<span asp-validation-for="MemberEmail" class="alert-danger"></span>
+
+						</div>
+						<div class="form-group col md-6">
+							<label asp-for="MemberPhone">Số điện thoại</label>
+							<input type="text" class="form-control mb-3" asp-for="MemberPhone" placeholder="Nhập SĐT" />
+							<span asp-validation-for="MemberPhone" class="alert-danger"></span>
+						</div>
+                        <div class="form-group col md-6">
+							<label asp-for="MemberMSV">Mã Sinh viên</label>
+							<input type="text" class="form-control mb-3" asp-for="MemberMSV" placeholder="Nhập Mã Sinh viên" />
+							<span asp-validation-for="MemberMSV" class="alert-danger"></span>
+						</div>
+                     
+                         <div class="form-group col md-6">
+							<label asp-for="Point">Điểm rèn luyện</label>
+							<input type="text" class="form-control mb-3" asp-for="Point" placeholder="Điểm rèn luyện" />
+							<span asp-validation-for="Point" class="alert-danger"></span>
+						</div>
+                            <div class="form-group col-md-6 mt-3 mb-3">
+					<label>
+						@Html.CheckBox("IsShow", false)
+						Hiển thị
+					</label>
+				</div>
+
+                <button type="submit" class="btn btn-lg btn-primary p-2"><i class="bi bi-file-plus-fill"></i>Lưu</button>
+                <a asp-controller="Member" asp-action="Read" class="btn btn-lg btn-warning p-2">Quay Lại</a>
+            </form>
+        </div>
+    </div>
+    <!-- /.card -->
+</div>
+<!-- /.content -->
+</div>

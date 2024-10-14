@@ -5,24 +5,20 @@ using System.Threading.Tasks;
 
 namespace QLcaulacbosinhvien.Models
 {
-    public class Article
-    {
-       
-        public int ArticleID { get; set; }
+  public class Article
+{
+    public int ArticleID { get; set; }
+    
+    public string? Title { get; set; }        // Nullable
+    public string? Content { get; set; }      // Nullable
+    public string? Image { get; set; }        // Nullable
+    public DateTime Date { get; set; }
+    public int View { get; set; }
+    public bool? IsShow { get; set; }         // Nullable
+    public int AccountID { get; set; }        // Không nullable
+    public string? Description { get; set; }  // Nullable
 
-        public string? Title { get; set; }
+    public string? AuthorName {get; set;}
+}
 
-        public string? Content { get; set; }
-
-        public string? Image { get; set; }
-
-        public DateTime Date { get; set; }
-
-        public int View { get; set; }
-
-        public bool Status { get; set; }
-
-        public int MemberID { get; set; }
-        
-    }
 }

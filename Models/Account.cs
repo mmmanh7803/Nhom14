@@ -16,6 +16,12 @@ namespace QLcaulacbosinhvien.Models
         public string? Email { get; set; }
 
         public int RoleID { get; set; }
+
+        public int MemberID {get; set;}
+
+        public Member? member {get; set;}
+
+   
         
     }
 }

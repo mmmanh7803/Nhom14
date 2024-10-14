@@ -18,12 +18,23 @@ namespace QLcaulacbosinhvien.Areas.Admin.Controllers
         {
             _context = context;
         }
+            public IActionResult read(int page = 1, int pageSize = 3)
+{
+    var totalRecords = _context.Menus.Count();  
+    var menu = _context.Menus
+        .OrderBy(a => a.MenuID)
+        .Skip((page - 1) * pageSize) // Bỏ qua số bản ghi trước trang hiện tại
+        .Take(pageSize) // Lấy số bản ghi theo pageSize
+        .ToList();
 
-       public IActionResult read()
-        {
-            var list = _context.Menus.OrderBy(m => m.MenuID).ToList();
-            return View(list);
-        }
+    // Tính tổng số trang
+    int totalPages = (int)Math.Ceiling((double)totalRecords / pageSize);
+
+    ViewBag.CurrentPage = page;
+    ViewBag.TotalPages = totalPages;
+
+    return View(menu);
+}
         public IActionResult Create()
         {
             var mnList = (from m in _context.Menus
@@ -103,7 +114,7 @@ namespace QLcaulacbosinhvien.Areas.Admin.Controllers
 			return View(mn);
 		}
 		[HttpPost]
-        public IActionResult UpdateIsActive(int id, bool isActive)
+        public IActionResult UpdateIsShow(int id, bool isActive)
         {
             try
             {
@@ -111,7 +122,7 @@ namespace QLcaulacbosinhvien.Areas.Admin.Controllers
 
                 if (menuItem != null)
                 {
-                    menuItem.IsActive = isActive;
+                    menuItem.IsShow = isActive;
                     _context.SaveChanges();
                     return Json(new { success = true, message = "Update successful" });
                 }

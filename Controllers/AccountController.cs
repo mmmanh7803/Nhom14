@@ -22,66 +22,56 @@ public class AccountController : Controller
 
       #region Login
 
-    [HttpGet]
+   [HttpGet]
     public IActionResult Login(string? ReturnUrl)
     {
         ViewBag.ReturnUrl = ReturnUrl;
-			return View();
-    }
-    public IActionResult Register()
-    {
         return View();
     }
-        [HttpPost]
+
+
+    // Phương thức POST để xử lý đăng nhập
+ [HttpPost]
 public async Task<IActionResult> Login(Account model, string? ReturnUrl)
-{
-    ViewBag.ReturnUrl = ReturnUrl;
-    if (ModelState.IsValid)
-    {
-        var Userr = _context.Accounts.SingleOrDefault(p => p.Email == model.Email);
-        if (Userr == null)
-        {
-            ModelState.AddModelError("loi", "Không có khách hàng này");
-        }
-        else
-        {
-            if (Userr.Password != model.Password)
-            {
-                ModelState.AddModelError("loi", "Sai thông tin đăng nhập");
-            }
-            else
-            {
-                // Tạo claims
-                var claims = new List<Claim> {
-                    new Claim(ClaimTypes.Email, Userr.Email),
-                    new Claim("ID", Userr.AccountID.ToString()),
-                    new Claim(ClaimTypes.Name, Userr.UserName)
-                };
+	{
+			ViewBag.ReturnUrl = ReturnUrl;
+			if (ModelState.IsValid)
+			{
+			var Userr = _context.Accounts.Include(a => a.member).FirstOrDefault(u => u.Email == model.Email);
 
-                // Thêm role dựa trên RoleID của người dùng
-                if (Userr.RoleID == 1)
+				if (Userr == null || Userr.MemberID == 0 || Userr.member == null)
                 {
-                    claims.Add(new Claim(ClaimTypes.Role, "1")); // Admin
+                    ModelState.AddModelError("loi", "Tài khoản không hợp lệ hoặc không có thành viên liên kết.");
+                    return View(model);
                 }
-                else if (Userr.RoleID == 2)
-                {
-                    claims.Add(new Claim(ClaimTypes.Role, "2")); // Club Leader
-                }
-                else if (Userr.RoleID == 3)
-                {
-                    claims.Add(new Claim(ClaimTypes.Role, "3")); // Member
-                }
+				else
+				{
+				
+						if (Userr.Password != model.Password)
+                        {
+                            ModelState.AddModelError("loi", "Sai mật khẩu.");
+                            return View(model);
+                        }
+                        else
+                        {
+                            var claims = new List<Claim> {
+                                new Claim(ClaimTypes.Email, Userr.Email),
+                                new Claim("ID", Userr.RoleID.ToString()),
+                                new Claim(ClaimTypes.Name, Userr.UserName),
 
-                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+                                //claim - role động
+                                new Claim(ClaimTypes.Role, "2"),
+                                new Claim(ClaimTypes.Role, "1")
+                            };
 
-                // Đăng nhập
-                await HttpContext.SignInAsync(claimsPrincipal);
+                            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                            var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
 
-                // Điều hướng dựa trên role
+                            await HttpContext.SignInAsync(claimsPrincipal);
+
                 if (Userr.RoleID == 1 || Userr.RoleID == 2)
                 {
-                    return RedirectToAction("Index", "Admin"); // Điều hướng đến trang admin nếu là admin hoặc club leader
+                    return RedirectToAction("Index", "Admin"); // Điều hướng đến trang admin
                 }
                 else if (Url.IsLocalUrl(ReturnUrl))
                 {
@@ -89,45 +79,57 @@ public async Task<IActionResult> Login(Account model, string? ReturnUrl)
                 }
                 else
                 {
-                    return RedirectToAction("Index", "Home");
+                    return Redirect("/");
                 }
-            }
-        }
+                        }
+				}
+		    }
+
+			return View();
+		}
+    #endregion
+
+
+     [HttpGet]
+    public IActionResult Register()
+    {
+        return View();
     }
 
-    return View();
-}
-
-    	#endregion
-[HttpPost]
+    // [POST] /Account/Register
+    [HttpPost]
     public async Task<IActionResult> Register(RegisterViewModel model)
     {
         if (ModelState.IsValid)
         {
+            // Kiểm tra email đã tồn tại chưa
             var existingUser = _context.Accounts.SingleOrDefault(u => u.Email == model.Email);
             if (existingUser != null)
             {
-                ModelState.AddModelError("Email", "Email is already taken.");
+                ModelState.AddModelError("Email", "Email đã được sử dụng.");
                 return View(model);
             }
-
+            var member = _context.Members.SingleOrDefault(m => m.MemberEmail == model.Email);
+            // Tạo tài khoản mới
             var user = new Account
             {
-                Email = model.Email,
-                Password = model.Password, // Ideally, you should hash the password before storing it
                 UserName = model.UserName,
-                RoleID = 3 // Default role for new users
+                Email = model.Email,
+                Password = model.Password, // Băm mật khẩu trong thực tế
+                MemberID = member.MemberID,
+                RoleID = 3 // Role mặc định cho user mới
             };
 
             _context.Accounts.Add(user);
             await _context.SaveChangesAsync();
 
-            // Log the user in after registration
-            var claims = new List<Claim> {
+            // Tự động đăng nhập sau khi đăng ký
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, user.UserName),
                 new Claim(ClaimTypes.Email, user.Email),
                 new Claim("ID", user.AccountID.ToString()),
-                new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(ClaimTypes.Role, "2")
+                new Claim(ClaimTypes.Role, user.RoleID.ToString())
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -140,6 +142,7 @@ public async Task<IActionResult> Login(Account model, string? ReturnUrl)
 
         return View(model);
     }
+
 
 
 		public async Task<IActionResult> Logout()

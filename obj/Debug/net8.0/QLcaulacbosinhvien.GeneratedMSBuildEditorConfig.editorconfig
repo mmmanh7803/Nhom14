@@ -17,95 +17,123 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QLcaulacbosinhvien
 build_property.RootNamespace = QLcaulacbosinhvien
-build_property.ProjectDir = D:\.NET8\QLcaulacbosinhvien\
+build_property.ProjectDir = D:\.NET8\Qlcaulacbosinhvien\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\.NET8\QLcaulacbosinhvien
+build_property.MSBuildProjectDirectory = D:\.NET8\Qlcaulacbosinhvien
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/.NET8/QLcaulacbosinhvien/Areas/Admin/Views/Account/Create.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/Account/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Areas/Admin/Views/Account/Edit.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/Account/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Areas/Admin/Views/Account/Read.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/Account/Read.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxSZWFkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Areas/Admin/Views/AdminMenu/Create.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/AdminMenu/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NZW51XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Areas/Admin/Views/AdminMenu/Edit.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/AdminMenu/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NZW51XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Areas/Admin/Views/AdminMenu/read.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/AdminMenu/read.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NZW51XHJlYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Areas/Admin/Views/Home/Index.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/Article/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/Article/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/Article/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZVxSZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Areas/Admin/Views/Shared/Components/AdminMenu/Default.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/Member/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVtYmVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/Member/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVtYmVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/Member/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVtYmVyXFJlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/Shared/Components/AdminMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWRtaW5NZW51XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Areas/Admin/Views/_ViewStart.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Views/Account/Login.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Views/Account/Register.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Views/Home/Index.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Views/Home/Post.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Views/Home/Post.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Views/Home/Privacy.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Views/Home/PostDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET8/Qlcaulacbosinhvien/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Views/Shared/Components/MenuView/Default.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Views/Shared/Components/MenuView/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudVZpZXdcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Views/Shared/Error.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Views/Shared/_Layout.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Views/_ViewImports.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET8/QLcaulacbosinhvien/Views/_ViewStart.cshtml]
+[D:/.NET8/Qlcaulacbosinhvien/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

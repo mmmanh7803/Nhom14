@@ -23,7 +23,9 @@ namespace QLcaulacbosinhvien.Models
 
         public int Point { get; set; }
 
-        public bool Status { get; set; }
+        public bool? Status { get; set; }
+
+        public Account? account {get; set;}
     
         
     }

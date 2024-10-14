@@ -18,7 +18,7 @@ namespace QLcaulacbosinhvien.Components
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var list = (from m in _context.Menus
-                        where (m.IsActive == true) && (m.Position == 1)
+                        where (m.IsShow == true) && (m.Position == 1)
                         select m).ToList();
             return await Task.FromResult((IViewComponentResult)View("Default", list));
         }
