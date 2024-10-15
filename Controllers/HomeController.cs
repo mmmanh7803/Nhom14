@@ -41,7 +41,7 @@ public class HomeController : Controller
         
         return View(posts);
     }
-    [Route("/post-{slug}-{id:long}.html", Name = "PostDetail")]
+    [Route("/Home/post-{slug}-{id:long}.html", Name = "PostDetail")]
 public IActionResult PostDetail(long? id)
 {
     if (id == null)

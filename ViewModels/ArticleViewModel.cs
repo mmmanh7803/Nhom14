@@ -11,6 +11,7 @@ namespace QLcaulacbosinhvien.ViewModels
         public string Image { get; set; }
         public DateTime Date { get; set; }
         public int View { get; set; }
+        public string Description {get; set;}
         public string AuthorName { get; set; }
     }
 }

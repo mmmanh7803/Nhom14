@@ -31,25 +31,35 @@ namespace QLcaulacbosinhvien.Areas.Admin.Controllers
             _env = env;
         }
 
-    public IActionResult Read(int page = 1, int pageSize = 3)
+ public IActionResult Read(DateTime? startDate, DateTime? endDate, int page = 1)
 {
-    var totalRecords = _context.Articles.Count();  // Đếm tổng số bài viết
-    var articles = _context.Articles
-        .OrderBy(a => a.ArticleID)
-        .Skip((page - 1) * pageSize) // Bỏ qua số bản ghi trước trang hiện tại
-        .Take(pageSize) // Lấy số bản ghi theo pageSize
+    int pageSize = 3;  
+
+    var postsQuery = _context.Articles.AsQueryable();
+
+
+    if (startDate.HasValue && endDate.HasValue)
+    {
+        postsQuery = postsQuery.Where(a => a.Date >= startDate && a.Date <= endDate);
+    }
+
+    // Fetch total count for pagination
+    int totalPosts = postsQuery.Count();
+
+    var posts = postsQuery
+        .OrderByDescending(a => a.Date)  
+        .Skip((page - 1) * pageSize)            
+        .Take(pageSize)                         
         .ToList();
 
-    // Tính tổng số trang
-    int totalPages = (int)Math.Ceiling((double)totalRecords / pageSize);
-
     ViewBag.CurrentPage = page;
-    ViewBag.TotalPages = totalPages;
+    ViewBag.TotalPages = (int)Math.Ceiling(totalPosts / (double)pageSize);
+    ViewBag.StartDate = startDate;
+    ViewBag.EndDate = endDate;
 
-    return View(articles); // Trả về danh sách bài viết
+    return View(posts);
 }
- 
-        
+
         public IActionResult Create()
 		{
           return View();

@@ -18,7 +18,7 @@ namespace QLcaulacbosinhvien.Areas.Admin.Controllers
         {
             _context = context;
         }
-            public IActionResult read(int page = 1, int pageSize = 3)
+public IActionResult read(int page = 1, int pageSize = 3)
 {
     var totalRecords = _context.Menus.Count();  
     var menu = _context.Menus
