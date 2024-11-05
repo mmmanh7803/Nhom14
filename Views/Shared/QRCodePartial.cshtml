@@ -1,0 +1,38 @@
+
+@model string
+
+<div class="qr-code-container">
+    @if (!string.IsNullOrEmpty(Model))
+    {
+        <img src="@Model" style="width:500px; height: 400px;" alt="Mã QR điểm danh" class="img-fluid" />
+    }
+    else
+    {
+        <p>Không có mã QR để hiển thị.</p>
+    }
+
+    <button id="confirmAttendanceButton" class="btn btn-primary mt-3">
+    <a href="http://localhost:5223">Xác nhận đã quét</a> 
+    </button>
+</div>
+
+<script>
+    document.getElementById("confirmAttendanceButton").addEventListener("click", function () {
+        $.ajax({
+            url: '/Event/AttendEvent',
+            type: 'POST',
+            data: { accountId: '@User.FindFirst("ID")?.Value', eventId: @ViewBag.EventID },
+            success: function (response) {
+                if (response.success) {
+                    alert(response.message);
+                 window.location.href = 'http://localhost:5223'; 
+                } else {
+                    alert(response.message);
+                }
+            },
+            error: function () {
+                alert("Có lỗi xảy ra. Vui lòng thử lại.");
+            }
+        });
+    });
+</script>

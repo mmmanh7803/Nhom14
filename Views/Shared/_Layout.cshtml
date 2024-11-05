@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
    <head>
       <!-- basic -->
@@ -38,6 +37,7 @@
       </div>
       <!-- end loader --> 
 @await Component.InvokeAsync("MenuView")
+<div id="notificationContainer"></div>
     @RenderBody()
       <!-- end Testimonial --> 
       <!--  footer --> 
@@ -99,22 +99,19 @@
       <script src="~/js/jquery.mCustomScrollbar.concat.min.js"></script> 
       <script src="~/https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
       <script src="~/js/custom.js"></script>
-      <script>
-         $(document).ready(function(){
-         $(".fancybox").fancybox({
-         openEffect: "none",
-         closeEffect: "none"
-         });
-         
-         $(".zoom").hover(function(){
-         
-         $(this).addClass('transition');
-         }, function(){
-         
-         $(this).removeClass('transition');
-         });
-         });
-         
-      </script> 
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch('/Home/EventNotification')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('notificationContainer').innerHTML = html;
+            });
+    });
+</script>
+
+
+ 
+      @RenderSection("scripts2", required: false)
+
    </body>
 </html>

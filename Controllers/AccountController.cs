@@ -32,17 +32,21 @@ public class AccountController : Controller
 
     // Phương thức POST để xử lý đăng nhập
  [HttpPost]
-public async Task<IActionResult> Login(Account model, string? ReturnUrl)
+public async Task<IActionResult> Login(LoginViewModel  model, string? ReturnUrl)
 	{
 			ViewBag.ReturnUrl = ReturnUrl;
 			if (ModelState.IsValid)
 			{
-			var Userr = _context.Accounts.Include(a => a.member).FirstOrDefault(u => u.Email == model.Email);
+var Userr = _context.Accounts
+    .Include(a => a.member)
+    .Where(a => a.Status == true && a.member.Status == true)
+    .FirstOrDefault(u => u.Email == model.Email);
+
 
 				if (Userr == null || Userr.MemberID == 0 || Userr.member == null)
                 {
-                    ModelState.AddModelError("loi", "Tài khoản không hợp lệ hoặc không có thành viên liên kết.");
-                    return View(model);
+                    ModelState.AddModelError("loi", "Tài khoản bị vô hiệu hóa hoặc không phải thành của CLB");
+                  
                 }
 				else
 				{
@@ -50,18 +54,18 @@ public async Task<IActionResult> Login(Account model, string? ReturnUrl)
 						if (Userr.Password != model.Password)
                         {
                             ModelState.AddModelError("loi", "Sai mật khẩu.");
-                            return View(model);
+                          
                         }
                         else
                         {
                             var claims = new List<Claim> {
                                 new Claim(ClaimTypes.Email, Userr.Email),
-                                new Claim("ID", Userr.RoleID.ToString()),
+                                new Claim("ID", Userr.AccountID.ToString()),
                                 new Claim(ClaimTypes.Name, Userr.UserName),
 
                                 //claim - role động
-                                new Claim(ClaimTypes.Role, "2"),
-                                new Claim(ClaimTypes.Role, "1")
+                                new Claim(ClaimTypes.Role, Userr.RoleID.ToString()),
+
                             };
 
                             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -109,7 +113,9 @@ public async Task<IActionResult> Login(Account model, string? ReturnUrl)
                 ModelState.AddModelError("Email", "Email đã được sử dụng.");
                 return View(model);
             }
-            var member = _context.Members.SingleOrDefault(m => m.MemberEmail == model.Email);
+            var member = _context.Members
+            .Where(m => m.Status == true)
+            .SingleOrDefault(m => m.MemberEmail == model.Email);
             // Tạo tài khoản mới
             var user = new Account
             {

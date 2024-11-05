@@ -3,6 +3,7 @@
    @{
          Layout = null;
           var userClaims = User.Claims;
+         
    }
       <!-- header -->
       <header>
@@ -13,7 +14,7 @@
                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
                   <div class="full">
                      <div class="center-desk">
-                        <div class="logo"> <a href="index.html">CLB-ĐHV</a> </div>
+                        <div class="logo"> <a href="http://localhost:5223">CLB-ĐHV</a> </div>
                      </div>
                   </div>
                </div>
@@ -27,6 +28,7 @@
                                 <a href="/@item.ControllerName/@item.ActionName">@item.MenuName</a>
                             </li>
                               }
+                             
                   @if (User.Identity.IsAuthenticated)
                     {
 						@if(User.FindFirst(ClaimTypes.Name) != null){

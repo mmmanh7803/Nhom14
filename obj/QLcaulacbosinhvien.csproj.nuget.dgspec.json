@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.NET8\\Qlcaulacbosinhvien\\QLcaulacbosinhvien.csproj": {}
+    "D:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj": {}
   },
   "projects": {
-    "D:\\.NET8\\Qlcaulacbosinhvien\\QLcaulacbosinhvien.csproj": {
+    "D:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NET8\\Qlcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
+        "projectUniqueName": "D:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
         "projectName": "QLcaulacbosinhvien",
-        "projectPath": "D:\\.NET8\\Qlcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
+        "projectPath": "D:\\.NET8\\QLcaulacbosinhvien\\QLcaulacbosinhvien.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-        "outputPath": "D:\\.NET8\\Qlcaulacbosinhvien\\obj\\",
+        "outputPath": "D:\\.NET8\\QLcaulacbosinhvien\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,9 +90,17 @@
               "target": "Package",
               "version": "[8.0.5, )"
             },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
             "SlugGenerator": {
               "target": "Package",
               "version": "[2.0.2, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.10, )"
             },
             "X.PagedList": {
               "target": "Package",

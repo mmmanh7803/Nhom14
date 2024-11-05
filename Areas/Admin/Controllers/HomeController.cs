@@ -9,7 +9,8 @@ using Microsoft.Extensions.Logging;
 
 namespace QLcaulacbosinhvien.Areas.Admin.Controllers
 {
-    [Authorize(Roles = "1,2")]
+  [Authorize(Roles = "1, 2")]
+
     [Area("Admin")]
     public class HomeController : Controller
     {

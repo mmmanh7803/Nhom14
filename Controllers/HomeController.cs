@@ -2,6 +2,14 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using QLcaulacbosinhvien.Models;
 using QLcaulacbosinhvien.ViewModels;    
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using QRCoder;
+using System.Drawing;
+using System.Drawing.Imaging;
 
 namespace QLcaulacbosinhvien.Controllers;
 
@@ -53,11 +61,51 @@ public IActionResult PostDetail(long? id)
     {
         return NotFound();
     }
-
     _context.SaveChanges();
 
     return View(post);  // Ensure this matches the view expecting a single post
 }
+public IActionResult EventNotification()
+{
+    var userId = User.FindFirst("ID")?.Value;
+    if (userId != null)
+    {
+        int accountId = int.Parse(userId);
+
+        // Lấy danh sách sự kiện đang diễn ra mà người dùng đã tham gia, thực hiện trước trên server
+        var events = _context.Events
+            .Include(e => e.EventMembers)
+            .ToList(); // Chuyển sang danh sách để xử lý điều kiện `IsActive` trên client
+
+        // Lọc sự kiện dựa trên điều kiện `IsActive`
+        var activeEvents = events
+            .Where(e => e.IsActive && e.EventMembers.Any(em => em.AccountID == accountId))
+            .ToList();
+
+        // Kiểm tra xem có sự kiện nào mà người dùng chưa điểm danh không
+        var unCheckedEvents = activeEvents
+            .Where(e => e.EventMembers.Any(em => em.AccountID == accountId && !em.IsAttended))
+            .ToList();
+
+        if (!unCheckedEvents.Any())
+        {
+            // Nếu không có sự kiện nào chưa điểm danh, tắt thông báo
+            return PartialView("EventNotification");
+        }
+        else
+        {
+            // Nếu có sự kiện chưa điểm danh, hiển thị thông báo
+            return PartialView("EventNotification", unCheckedEvents);
+        }
+    }
+    else
+    {
+        return NoContent(); 
+    }
+}
+
+
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

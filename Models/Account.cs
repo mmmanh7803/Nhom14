@@ -17,9 +17,15 @@ namespace QLcaulacbosinhvien.Models
 
         public int RoleID { get; set; }
 
+        public bool Status {get; set;}
+
         public int MemberID {get; set;}
 
         public Member? member {get; set;}
+
+         public ICollection<Event> Events { get; set; }
+
+          public ICollection<EventMember> EventMembers { get; set; }
 
    
         

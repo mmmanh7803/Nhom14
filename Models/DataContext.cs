@@ -23,12 +23,34 @@ namespace QLcaulacbosinhvien.Models
 
        public DbSet<Article> Articles { get; set; } 
 
+      public DbSet<EventMember> EventMembers { get; set; } 
+
+      
+
 protected override void OnModelCreating(ModelBuilder modelBuilder)
 {
     modelBuilder.Entity<Account>()
         .HasOne(a => a.member)
         .WithOne(m => m.account)
         .HasForeignKey<Account>(a => a.MemberID); // Account có khóa ngoại là MemberID
+
+    modelBuilder.Entity<Event>()
+    .HasOne(e => e.Account)
+    .WithMany(a => a.Events)
+    .HasForeignKey(e => e.AccountID);
+
+  modelBuilder.Entity<EventMember>()
+                .HasKey(em => em.EventAccountID); // Đặt khóa chính
+
+            modelBuilder.Entity<EventMember>()
+                .HasOne(em => em.Event)
+                .WithMany(e => e.EventMembers)
+                .HasForeignKey(em => em.EventID);
+
+            modelBuilder.Entity<EventMember>()
+                .HasOne(em => em.Account)
+                .WithMany(a => a.EventMembers)
+                .HasForeignKey(em => em.AccountID);
 }
 
     }

@@ -1,0 +1,18 @@
+@model IEnumerable<QLcaulacbosinhvien.Models.Event> 
+
+@if (Model != null && Model.Any())
+{
+    foreach (var eventItem in Model)
+    {
+        <div class="alert alert-info" role="alert">
+            Sự kiện "@eventItem.EventName" đang diễn ra! Vui lòng điểm danh.
+    <a href="/Event/GetAttendanceQRCode">Điểm danh</a>
+        </div>
+    }
+}
+    else
+    {
+        <div class="alert alert-warning" role="alert">
+            Hiện không có sự kiện nào đang diễn ra.
+        </div>
+    }

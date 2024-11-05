@@ -1,0 +1,71 @@
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Select Event to View Attendance Statistics</h2>
+
+<div>
+    <select id="eventDropdown" class="form-select">
+        <option value="">Select Event</option>
+    </select>
+</div>
+
+<div id="chartContainer" style="margin-top: 30px;">
+    <canvas id="attendanceChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Fetch past events
+        fetch('@Url.Action("PastEvents")')
+            .then(response => response.json())
+            .then(data => {
+                const dropdown = document.getElementById("eventDropdown");
+
+                // Populate dropdown with events
+                data.forEach(event => {
+                    const option = document.createElement("option");
+                    option.value = event.EventID;
+                    option.textContent = event.EventName;
+                    dropdown.appendChild(option);
+                });
+            });
+
+        // Update chart on event selection
+        document.getElementById("eventDropdown").addEventListener("change", function () {
+            const eventId = this.value;
+            if (eventId) {
+                fetch(`@Url.Action("AttendanceStats")?eventId=${eventId}`)
+                    .then(response => response.json())
+                    .then(stats => {
+                        if (attendanceChart) {
+                            attendanceChart.destroy(); // Destroy old chart if exists
+                        }
+
+                        // Create new pie chart
+                        const ctx = document.getElementById("attendanceChart").getContext("2d");
+                        attendanceChart = new Chart(ctx, {
+                            type: 'pie',
+                            data: {
+                                labels: ['Attended', 'Absent'],
+                                datasets: [{
+                                    label: `Attendance - ${stats.EventName}`,
+                                    data: [stats.Attended, stats.Absent],
+                                    backgroundColor: ['#36A2EB', '#FF6384']
+                                }]
+                            },
+                            options: {
+                                responsive: true,
+                                plugins: {
+                                    legend: {
+                                        position: 'top',
+                                    }
+                                }
+                            }
+                        });
+                    });
+            }
+        });
+    });
+</script>

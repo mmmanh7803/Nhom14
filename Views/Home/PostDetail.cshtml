@@ -2,8 +2,53 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model QLcaulacbosinhvien.Models.Article
+<style>
+    /* Định dạng tiêu đề bài viết */
+.post-detail h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-<div class="post-detail">
+/* Định dạng ngày xuất bản */
+.post-detail p {
+    font-size: 1em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Định dạng hình ảnh */
+.post-detail img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+/* Định dạng nội dung bài viết */
+.post-detail .post-content {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #444;
+    padding: 0 15px;
+}
+
+/* Tùy chỉnh cho liên kết trong nội dung */
+.post-detail .post-content a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.post-detail .post-content a:hover {
+    color: #0056b3;
+}
+
+</style>
+<div class="post-detail" >
     <h1>@Model.Title</h1>
     <p><strong>Published on:</strong> @Model.Date.ToString("dd/MM/yyyy")</p>
 

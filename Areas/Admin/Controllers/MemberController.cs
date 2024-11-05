@@ -26,7 +26,7 @@ namespace QLcaulacbosinhvien.Areas.Admin.Controllers
             _context = context;
         }
   
-           public IActionResult Read(int page = 1, int pageSize = 3)
+    public IActionResult Read(int page = 1, int pageSize = 3)
 {
     var totalRecords = _context.Members.Count();
     var member = _context.Members
@@ -112,7 +112,7 @@ namespace QLcaulacbosinhvien.Areas.Admin.Controllers
 			}
 			return View(model);
 		}
-             [HttpPost]
+            
     [HttpPost]
         public IActionResult Delete(int id)
         {

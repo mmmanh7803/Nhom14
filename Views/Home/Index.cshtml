@@ -1,4 +1,9 @@
-﻿    <section class="slider_section">
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <section class="slider_section">
          <div id="myCarousel" class="carousel slide banner-main" data-ride="carousel">
             <div class="carousel-inner">
                <div class="carousel-item active">
@@ -38,8 +43,9 @@
             <a class="bottom_arrow_scroll" href="#about"><img src="icon/errow.png" /></a>
          </div>
       </section>
-<!-- about  -->
+
       <div id="about" class="about">
+
          <div class="container">
             <div class="row">
                <div class="col-md-12">
@@ -233,3 +239,6 @@
             </div>
          </div>
       </div>
+
+<!-- Nơi hiển thị thông báo -->
+<div id="notificationContainer"></div>

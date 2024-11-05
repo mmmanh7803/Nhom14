@@ -3,6 +3,7 @@ using QLcaulacbosinhvien.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.Cookies; // Add this line
 using Microsoft.AspNetCore.Http.Features;
+using QLcaulacbosinhvien.Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     {
         options.LoginPath = "/Account/Login";
         options.AccessDeniedPath = "/Account/AccessDenied";
+        
     });
 
 

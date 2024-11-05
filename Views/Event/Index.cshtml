@@ -1,0 +1,67 @@
+@model IEnumerable<QLcaulacbosinhvien.Models.Event>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+      var userId = User.FindFirst("ID")?.Value;
+}
+<div id="blog" class="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="titlepage">
+                    <h2>Sự kiện</h2>
+                    <span>Tham gia các sự kiện tại đây.</span> 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @foreach(var post in Model)
+            {             
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="blog-box">
+                    <figure><img src="~/images/@post.Images" alt="#">
+                        <span>@post.EventDate - @post.EndEvent</span>
+                    </figure>
+                    <div class="travel">
+                        <!-- Nút Tham gia -->
+                        <button class="btnJoinEvent" data-event-id="@post.EventID">Tham gia</button>
+                        <p><strong class="like"></strong>người tham gia: @post.EventMembers.Count()/@post.MemberJoin </p>
+                    </div>
+                    <h3><a href="#">@post.EventName</a></h3>
+                    <p>@post.EventDescription</p>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- Thông báo kết quả -->
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-info">
+        @ViewBag.Message
+    </div>
+}
+
+@section scripts2 {
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".btnJoinEvent").click(function () {
+            var eventId = $(this).data("event-id");
+            $.ajax({
+                url: '@Url.Action("Participate", "Event")',  // URL đến action `Participate` trong `HomeController`
+                type: 'POST',
+                data: { eventId: eventId },
+                success: function (response) {
+                    alert(response.message);  // Hiển thị thông báo thành công hoặc lỗi
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error:", error);
+                    alert("Có lỗi xảy ra, vui lòng thử lại.");
+                }
+            });
+        });
+    });
+</script>
+}

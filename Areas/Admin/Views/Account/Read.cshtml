@@ -2,6 +2,7 @@
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
     }
 @model IEnumerable<QLcaulacbosinhvien.Models.Account>
+<div class="container-xxl flex-grow-1 container-p-y">
 <div class="card">
                 <h2 class="card-header" 
                 style=" display: flex;
@@ -100,6 +101,7 @@
                   </div>
                 </div>
               </div>
+</div>
     @section scripts2{
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
@@ -117,10 +119,16 @@
                     url: '/admin/Account/delete', // Replace with your actual URL
                     type: 'POST', // Use POST or DELETE based on your server-side implementation
                     data: { id: id },
-                    success: function (rs) {
-                        if (rs.success) {
-                            $('#trow_' + id).remove();  
+                   success: function (response) {
+                        if (response.success) {
+                            alert("Xóa thành công!");
+                            location.reload(); // Tải lại trang sau khi xóa thành công
+                        } else {
+                            alert("Xóa thất bại. Vui lòng thử lại.");
                         }
+                    },
+                    error: function () {
+                        alert("Có lỗi xảy ra. Vui lòng thử lại.");
                     }
 
                 });
